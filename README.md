@@ -50,18 +50,3 @@ Notes:
 - Apply stepwise legal-status proxy rules (immigration year, benefits, veteran status, citizenship, etc.).
 - Produce counts and subgroup summaries.
 
-## Known Practical Issues
-
-- Folder structure was normalized and filename typo fixed (`cps_deatiled_estimates.ipynb` → `cps_detailed_estimates.ipynb`).
-
-## Related Repository
-
-H-1B and wage exploration notebooks were moved to:
-
-- `c:\Users\linds\repos\DoE_CM_Exploration`
-
-## Suggested Next Cleanup (optional)
-
-- Move hard-coded file paths into a single config cell per notebook.
-- Add a small helper function for robust column-name matching.
-- Export key summary tables/figures to a `results/` folder.
